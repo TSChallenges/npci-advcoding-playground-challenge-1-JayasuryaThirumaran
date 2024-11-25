@@ -1,15 +1,8 @@
 {
   "name": "Java Development Environment",
-  "dockerFile": "Dockerfile",
+  "image": "mcr.microsoft.com/vscode/devcontainers/java:11",
   "settings": {
-    "java.home": "/usr/lib/jvm/java-11-openjdk-amd64",
-    "java.configuration.runtimes": [
-      {
-        "name": "Java 11",
-        "path": "/usr/lib/jvm/java-11-openjdk-amd64"
-      }
-    ],
-    "java.format.settings.url": "https://raw.githubusercontent.com/redhat-developer/vscode-java/master/formatter.xml"
+    "java.home": "/usr/lib/jvm/java-11-openjdk-amd64"
   },
   "extensions": [
     "vscjava.vscode-java-pack",
